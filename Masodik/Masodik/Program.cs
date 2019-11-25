@@ -166,14 +166,57 @@ namespace Masodik
             Console.WriteLine($"A külömbség: {tomb[tomb.Length-1]-tomb[tomb.Length - 2]}");
             Console.WriteLine($"Külömbség2: {tomb.Max() - tomb.Min()}");*/
 
+            //Új 1.Feladat
+            /*Console.WriteLine("Kérem a tömb elem számát: ");
+            int elemszam = Int32.Parse(Console.ReadLine());
+
+            int[] tomb =new int[elemszam];
+
+            for(int i=0; i<tomb.Length; i++)
+            {
+                Console.Write($"Kérem a(z) {i + 1}. számot.");
+                tomb[i] = Int32.Parse(Console.ReadLine());
+            }
+            int maxKulombseg=0;
+            for(int i=0; i<tomb.Length - 1; i++)
+            {
+                int kulombseg = Int32.MaxValue;
+                if (maxKulombseg <= kulombseg)
+                {
+                    maxKulombseg = kulombseg;
+                }
+            }
+            Console.WriteLine($"A maximális külömbség: {maxKulombseg}");*/
+
+            //Új 2.Feladat Felejsd el!
+            /*Console.WriteLine("Kérem a tömb elem számát: ");
+            int elemszam = Int32.Parse(Console.ReadLine());
+
+            int[] tomb = new int[elemszam];
+
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                Console.Write($"Kérem a(z) {i + 1}. számot.");
+                tomb[i] = Int32.Parse(Console.ReadLine());
+            }
+            int elso = -1;
+            int masodik = 0;
+            int kulombseg = Int32.MaxValue;
+            for(int i=0; i<tomb.Length; i++)
+            {
+                for(int j=0; j<tomb.Length; j++)
+                {
+
+                }
+            }*/
+
             Console.ReadLine();
          }
-        static void Tombkiir(int[] tomb)
+        /*static void Tombkiir(int[] tomb)
         {
             for(int i=0; i<tomb.Length; i++)
             {
                 Console.WriteLine(tomb[i]);
-            }
+            }*/
         }
      }
-}

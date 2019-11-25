@@ -138,7 +138,7 @@ namespace Masodik
             string probanev=*/
 
             //48.Feladat
-            Console.WriteLine("Mennyi adattal dolgozzak?");
+            /*Console.WriteLine("Mennyi adattal dolgozzak?");
             int darabszam = Convert.ToInt32(Console.ReadLine());
             int[] tomb = new int[darabszam];
             for (int i = 0; i < tomb.Length; i++)
@@ -164,7 +164,8 @@ namespace Masodik
             Array.Sort(tomb);
             //Tombkiir(tomb);
             Console.WriteLine($"A külömbség: {tomb[tomb.Length-1]-tomb[tomb.Length - 2]}");
-            Console.WriteLine($"Külömbség2: {tomb.Max() - tomb.Min()}");
+            Console.WriteLine($"Külömbség2: {tomb.Max() - tomb.Min()}");*/
+
             Console.ReadLine();
          }
         static void Tombkiir(int[] tomb)

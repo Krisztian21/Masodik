@@ -208,7 +208,7 @@ namespace Masodik
                 {
 
                 }
-            }*/
+            }*/ngfzghg
 
             Console.ReadLine();
          }
